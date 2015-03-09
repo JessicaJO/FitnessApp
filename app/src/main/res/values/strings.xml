@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FitnessApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="create">Create a new workout</string>
+    <string name="button_send">Display the next 10 workouts</string>
+    <string name="title_activity_create">Create a new workout</string>
+    <string name="search">Search</string>
+    <string name="title">Workouts</string>
+    <string name="workout_title">Workout name</string>
+    <string name="workout_user">Owner</string>
+    <string name="workout_exercise">Exercise</string>
+    <string name="workout_time">Time</string>
+    <string name="workout_file">Click to choose a video</string>
+    <string name="submit">Submit</string>
+    <string name="loading">Loading video</string>
+
+</resources>

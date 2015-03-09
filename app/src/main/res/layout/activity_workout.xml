@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:onClick="pause"
+        android:id="@+id/video_file"
+        />
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/progressbar"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:text=""
+        android:id="@+id/activity_display"
+        android:textSize="@dimen/workout_small_text"
+        android:textAlignment="center"/>
+</LinearLayout>
